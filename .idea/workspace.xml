@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f96628-1721-4feb-b51d-5fd39c566f78" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/bean/exception/NegativeMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/NegativeMoneyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/bean/exception/NotEnoughMoneyOnCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/NotEnoughMoneyOnCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/bean/exception/NullCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/NullCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/AddCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/AddCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/AddTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/AddTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/controller/impl/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/CountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/CountDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOCantCreateFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOCantCreateFileException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOCountAddCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOCountAddCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOCountAddTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOCountAddTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOFileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOFileNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOUserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOUserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOUserRegistrationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOUserRegistrationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/DAOUserSignInException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/DAOUserSignInException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/exception/NoSuchCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/dao/NoSuchCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/factory/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/factory/DAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFinances.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFinances.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/impl/TXTCountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/impl/TXTCountDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/impl/TXTUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/dao/impl/TXTUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/CountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/service/CountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/NullLoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/NullLoginException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/NullUserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/NullUserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/ServiceClientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/ServiceClientException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/ServiceCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/ServiceCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/transaction_type/ExpenseTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/transaction_type/ExpenseTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/transaction_type/IncomingTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/transaction_type/IncomingTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/exception/transaction_type/TransferTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/exception/service/transaction_type/TransferTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/factory/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/impl/CountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/service/impl/CountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/transaction_type/impl/ExpenseTransactionTypeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/service/transaction_type/impl/ExpenseTransactionTypeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/etc/tolstoy/service/transaction_type/impl/IncomingTransactionTypeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/tolstoy/service/transaction_type/impl/IncomingTransactionTypeImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +50,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -323,6 +300,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="877" y="105" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580658593944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="877" y="105" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1580658593944" />
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580652557922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -335,26 +316,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580654852498" />
-    <state width="746" height="257" key="GridCell.Tab.0.bottom" timestamp="1580655341058">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1580658093479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580655341058" />
-    <state width="746" height="257" key="GridCell.Tab.0.center" timestamp="1580655341058">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580658093479" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1580658093479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580655341058" />
-    <state width="746" height="257" key="GridCell.Tab.0.left" timestamp="1580655341058">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580658093479" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1580658093479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580655341058" />
-    <state width="746" height="257" key="GridCell.Tab.0.right" timestamp="1580655341058">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580658093479" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1580658093479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580655341058" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1580654789005">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580658093479" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1580658549412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580654789005" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580658549412" />
+    <state x="526" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580658547652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1580658547652" />
     <state x="762" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580654826754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

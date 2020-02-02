@@ -13,9 +13,12 @@ import java.util.Scanner;
  * Created by Home on 20.01.2020.
  */
 public class TXTCountDAO implements CountDAO {
+    public static final String COUNT_FILE_PATH = "C:\\Users\\Home\\IdeaProjects\\MyFinances\\target\\MyFinances\\Counts.txt";
+
+
     @Override
     public void addCount(String countName, String balance) throws DAOCountException, DAOCantCreateFileException, DAOCountAddCountException {
-        File file = new File("C:\\Users\\Home\\IdeaProjects\\MyFinances\\target\\MyFinances\\Counts.txt");
+        File file = new File(COUNT_FILE_PATH);
         if (!file.isFile()) {
             try {
                 file.createNewFile();

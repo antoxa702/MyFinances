@@ -12,9 +12,11 @@ import java.util.Scanner;
  * Created by Home on 20.01.2020.
  */
 public class TXTUserDAO implements UserDAO {
+    public static final String REGISTERED_USERS_FILE_PATH = "C:\\Users\\Home\\IdeaProjects\\MyFinances\\target\\MyFinances\\RegistredUsers.txt";
+
     @Override
     public void signIn(String login, String password) throws DAOUserSignInException {
-        File file = new File("C:\\Users\\Home\\IdeaProjects\\MyFinances\\target\\MyFinances\\RegistredUsers.txt");
+        File file = new File(REGISTERED_USERS_FILE_PATH);
         if (file.isFile()) {
             FileReader reader = null;
             try {
@@ -24,14 +26,13 @@ public class TXTUserDAO implements UserDAO {
                 while (sc.hasNextLine()) {
                     String[] registeredUser = sc.nextLine().split("\\s+");
                     if (registeredUser[0].equals(login) && registeredUser[1].equals(password)) {
-                        System.out.println("YES MOTHER FUCKER");
                         count ++;
                         break;
                     }
                 }
 
                 if (count == 0) {
-                    throw new DAOUserSignInException("You are not registred");
+                    throw new DAOUserSignInException("You are not registered");
                 }
             } catch (FileNotFoundException e) {
                 throw new DAOUserSignInException();
@@ -41,7 +42,7 @@ public class TXTUserDAO implements UserDAO {
 
     @Override
     public void registration(String login, String password) throws DAOUserRegistrationException, DAOCantCreateFileException {
-        File file = new File("C:\\Users\\Home\\IdeaProjects\\MyFinances\\target\\MyFinances\\RegistredUsers.txt");
+        File file = new File(REGISTERED_USERS_FILE_PATH);
         if (!file.isFile()) {
             try {
                 file.createNewFile();
