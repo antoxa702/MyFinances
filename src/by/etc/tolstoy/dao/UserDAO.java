@@ -1,10 +1,9 @@
 package by.etc.tolstoy.dao;
 
-import by.etc.tolstoy.bean.User;
-import by.etc.tolstoy.dao.exception.DAOCantCreateFileException;
-import by.etc.tolstoy.dao.exception.DAOUserException;
-import by.etc.tolstoy.dao.exception.DAOUserRegistrationException;
-import by.etc.tolstoy.dao.exception.DAOUserSignInException;
+import by.etc.tolstoy.exception.dao.DAOCantCreateFileException;
+import by.etc.tolstoy.exception.dao.DAOUserException;
+import by.etc.tolstoy.exception.dao.DAOUserRegistrationException;
+import by.etc.tolstoy.exception.dao.DAOUserSignInException;
 
 /**
  * Created by Home on 20.01.2020.

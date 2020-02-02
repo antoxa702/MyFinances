@@ -1,7 +1,6 @@
 package by.etc.tolstoy.dao;
 
-import by.etc.tolstoy.bean.TransactionSingleton;
-import by.etc.tolstoy.dao.exception.*;
+import by.etc.tolstoy.exception.dao.*;
 
 /**
  * Created by Home on 20.01.2020.

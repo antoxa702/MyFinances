@@ -1,4 +1,4 @@
-package by.etc.tolstoy.service.exception.transaction_type;
+package by.etc.tolstoy.exception.service.transaction_type;
 
 /**
  * Created by Home on 21.01.2020.

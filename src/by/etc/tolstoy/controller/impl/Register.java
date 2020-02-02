@@ -2,8 +2,8 @@ package by.etc.tolstoy.controller.impl;
 
 import by.etc.tolstoy.controller.command.Command;
 import by.etc.tolstoy.service.UserService;
-import by.etc.tolstoy.service.exception.ServiceClientException;
-import by.etc.tolstoy.service.factory.ServiceFactory;
+import by.etc.tolstoy.exception.service.ServiceClientException;
+import by.etc.tolstoy.factory.ServiceFactory;
 
 /**
  * Created by Home on 20.01.2020.

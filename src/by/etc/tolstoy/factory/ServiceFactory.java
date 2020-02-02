@@ -1,4 +1,4 @@
-package by.etc.tolstoy.service.factory;
+package by.etc.tolstoy.factory;
 
 import by.etc.tolstoy.service.UserService;
 import by.etc.tolstoy.service.CountService;

@@ -1,6 +1,6 @@
 package by.etc.tolstoy.bean;
 
-import by.etc.tolstoy.bean.exception.NullCountException;
+import by.etc.tolstoy.exception.NullCountException;
 
 import java.io.Serializable;
 import java.util.HashSet;

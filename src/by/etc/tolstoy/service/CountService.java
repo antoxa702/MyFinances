@@ -1,6 +1,6 @@
 package by.etc.tolstoy.service;
 
-import by.etc.tolstoy.service.exception.ServiceCountException;
+import by.etc.tolstoy.exception.service.ServiceCountException;
 
 
 public interface CountService {

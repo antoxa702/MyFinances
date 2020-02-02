@@ -1,4 +1,4 @@
-package by.etc.tolstoy.service.exception;
+package by.etc.tolstoy.exception.service;
 
 /**
  * Created by Home on 20.01.2020.

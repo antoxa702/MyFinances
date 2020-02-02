@@ -1,6 +1,6 @@
-package by.etc.tolstoy.service.exception.transaction_type;
+package by.etc.tolstoy.exception.service.transaction_type;
 
-import by.etc.tolstoy.bean.exception.NegativeMoneyException;
+import by.etc.tolstoy.exception.NegativeMoneyException;
 
 /**
  * Created by Home on 21.01.2020.

@@ -1,9 +1,9 @@
 package by.etc.tolstoy.service;
 
 import by.etc.tolstoy.bean.User;
-import by.etc.tolstoy.service.exception.NullLoginException;
-import by.etc.tolstoy.service.exception.NullUserException;
-import by.etc.tolstoy.service.exception.ServiceClientException;
+import by.etc.tolstoy.exception.service.NullLoginException;
+import by.etc.tolstoy.exception.service.NullUserException;
+import by.etc.tolstoy.exception.service.ServiceClientException;
 
 /**
  * Created by Home on 20.01.2020.

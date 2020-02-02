@@ -1,16 +1,16 @@
 package by.etc.tolstoy.service.impl;
 
 import by.etc.tolstoy.bean.User;
-import by.etc.tolstoy.dao.exception.DAOCantCreateFileException;
-import by.etc.tolstoy.dao.exception.DAOUserException;
-import by.etc.tolstoy.dao.exception.DAOUserRegistrationException;
-import by.etc.tolstoy.dao.exception.DAOUserSignInException;
-import by.etc.tolstoy.dao.factory.DAOFactory;
+import by.etc.tolstoy.exception.dao.DAOCantCreateFileException;
+import by.etc.tolstoy.exception.dao.DAOUserException;
+import by.etc.tolstoy.exception.dao.DAOUserRegistrationException;
+import by.etc.tolstoy.exception.dao.DAOUserSignInException;
+import by.etc.tolstoy.factory.DAOFactory;
 import by.etc.tolstoy.dao.UserDAO;
 import by.etc.tolstoy.service.UserService;
-import by.etc.tolstoy.service.exception.NullLoginException;
-import by.etc.tolstoy.service.exception.NullUserException;
-import by.etc.tolstoy.service.exception.ServiceClientException;
+import by.etc.tolstoy.exception.service.NullLoginException;
+import by.etc.tolstoy.exception.service.NullUserException;
+import by.etc.tolstoy.exception.service.ServiceClientException;
 
 /**
  * Created by Home on 20.01.2020.

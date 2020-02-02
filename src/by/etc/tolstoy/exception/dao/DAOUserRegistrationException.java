@@ -1,4 +1,4 @@
-package by.etc.tolstoy.dao.exception;
+package by.etc.tolstoy.exception.dao;
 
 /**
  * Created by Home on 21.01.2020.

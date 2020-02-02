@@ -1,4 +1,4 @@
-package by.etc.tolstoy.bean.exception;
+package by.etc.tolstoy.exception;
 
 /**
  * Created by Home on 21.01.2020.

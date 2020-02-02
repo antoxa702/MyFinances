@@ -1,4 +1,4 @@
-package by.etc.tolstoy.dao.factory;
+package by.etc.tolstoy.factory;
 
 import by.etc.tolstoy.dao.CountDAO;
 import by.etc.tolstoy.dao.UserDAO;

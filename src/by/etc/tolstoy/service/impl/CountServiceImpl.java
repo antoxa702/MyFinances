@@ -1,11 +1,10 @@
 package by.etc.tolstoy.service.impl;
 
-import by.etc.tolstoy.bean.TransactionSingleton;
 import by.etc.tolstoy.dao.*;
-import by.etc.tolstoy.dao.exception.*;
-import by.etc.tolstoy.dao.factory.DAOFactory;
+import by.etc.tolstoy.factory.DAOFactory;
+import by.etc.tolstoy.exception.dao.*;
 import by.etc.tolstoy.service.CountService;
-import by.etc.tolstoy.service.exception.ServiceCountException;
+import by.etc.tolstoy.exception.service.ServiceCountException;
 
 
 /**

@@ -1,8 +1,7 @@
 package by.etc.tolstoy.dao.impl;
 
-import by.etc.tolstoy.bean.TransactionSingleton;
 import by.etc.tolstoy.dao.CountDAO;
-import by.etc.tolstoy.dao.exception.*;
+import by.etc.tolstoy.exception.dao.*;
 
 import java.io.File;
 import java.io.FileReader;

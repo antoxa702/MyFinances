@@ -1,9 +1,9 @@
 package by.etc.tolstoy.service.transaction_type.impl;
 
 import by.etc.tolstoy.bean.Count;
-import by.etc.tolstoy.service.exception.transaction_type.IncomingTransactionException;
-import by.etc.tolstoy.bean.exception.NegativeMoneyException;
-import by.etc.tolstoy.bean.exception.NullCountException;
+import by.etc.tolstoy.exception.service.transaction_type.IncomingTransactionException;
+import by.etc.tolstoy.exception.NegativeMoneyException;
+import by.etc.tolstoy.exception.NullCountException;
 import by.etc.tolstoy.service.transaction_type.TransactionType;
 
 /**
