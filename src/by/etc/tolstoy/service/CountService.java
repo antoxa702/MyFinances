@@ -1,6 +1,5 @@
 package by.etc.tolstoy.service;
 
-import by.etc.tolstoy.bean.TransactionSingleton;
 import by.etc.tolstoy.service.exception.ServiceCountException;
 
 

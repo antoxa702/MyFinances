@@ -11,15 +11,8 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>home</groupId>
-            <artifactId>homeArtifact</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 </project>
